@@ -68,6 +68,19 @@
                 android:textColor="#666666"
                 android:layout_gravity="center_horizontal" />
         </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/btnSaveLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar ubicación"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnViewMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver en mapa"
+            android:layout_marginTop="8dp" />
 
     </LinearLayout>
 </ScrollView>
